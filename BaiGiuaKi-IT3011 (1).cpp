@@ -2,6 +2,7 @@
 #define ldb long double
 #define db double
 #define FOR(i,l,r) for ( int i = l ; i <= r ; i++ )
+#define FOD(i,l,r) for ( int i = l ; i >= r ; i-- )
 using namespace std;
     string s;
 	ldb cal ( ldb a, ldb b, char c ){
